@@ -49,7 +49,8 @@ export default function Skills() {
             {skillCategories.map((category, idx) => (
               <div
                 key={idx}
-                className="p-6 border border-border rounded-xl bg-card hover:shadow-md transition-all"
+                className="p-6 border border-border rounded-xl bg-card hover:shadow-lg hover:border-primary hover:scale-105 transition-all duration-300 animate-slide-up"
+                style={{ animationDelay: `${idx * 100}ms` }}
               >
                 <h3 className="text-lg font-bold text-foreground mb-4 flex items-center gap-2">
                   <div className="w-3 h-3 bg-primary rounded-full"></div>
