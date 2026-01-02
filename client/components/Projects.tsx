@@ -21,6 +21,7 @@ export default function Projects() {
   ];
 
   return (
+    <>
     <section id="projects" className="py-20 md:py-28 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
@@ -72,7 +73,7 @@ export default function Projects() {
                   </div>
 
                   <a
-                    href="#"
+                    href="https://bmtripathi.github.io/innovator-s-e-library/"
                     className="inline-flex items-center text-primary font-semibold hover:gap-2 transition-all"
                   >
                     {project.link}
@@ -84,5 +85,6 @@ export default function Projects() {
         </div>
       </div>
     </section>
+    </>
   );
 }
