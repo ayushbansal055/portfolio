@@ -1,9 +1,9 @@
 export default function Hero() {
   return (
-    <section className="py-24 md:py-32 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+    <section className="py-24 md:py-32 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 transition-colors duration-300">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center gap-6 max-w-2xl mx-auto">
-          <div className="w-32 h-32 bg-gradient-to-br from-purple-500 to-purple-700 rounded-full flex items-center justify-center text-5xl font-bold text-white shadow-lg">
+          <div className="w-32 h-32 bg-gradient-to-br from-purple-500 to-purple-700 rounded-full flex items-center justify-center text-5xl font-bold text-white shadow-lg animate-float hover:animate-glow transition-all">
             AB
           </div>
 
