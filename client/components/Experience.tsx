@@ -38,8 +38,12 @@ export default function Experience() {
                     <h3 className="text-2xl font-bold text-foreground">
                       {exp.title}
                     </h3>
-                    <p className="text-primary font-semibold mt-1">{exp.company}</p>
-                    <p className="text-muted-foreground text-sm">{exp.location}</p>
+                    <p className="text-primary font-semibold mt-1">
+                      {exp.company}
+                    </p>
+                    <p className="text-muted-foreground text-sm">
+                      {exp.location}
+                    </p>
                   </div>
                   <div className="text-sm font-medium text-primary px-4 py-2 bg-primary/10 rounded-lg whitespace-nowrap">
                     {exp.duration}

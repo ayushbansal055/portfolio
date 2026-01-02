@@ -6,7 +6,13 @@ export default function Skills() {
     },
     {
       category: "Web Technologies",
-      skills: ["Node.js", "Express.js", "React.js", "REST APIs", "RESTful APIs"],
+      skills: [
+        "Node.js",
+        "Express.js",
+        "React.js",
+        "REST APIs",
+        "RESTful APIs",
+      ],
     },
     {
       category: "Databases",
@@ -18,7 +24,13 @@ export default function Skills() {
     },
     {
       category: "Key Competencies",
-      skills: ["Problem Solving", "System Design", "IoT Development", "Full-Stack Development", "API Design"],
+      skills: [
+        "Problem Solving",
+        "System Design",
+        "IoT Development",
+        "Full-Stack Development",
+        "API Design",
+      ],
     },
   ];
 
@@ -71,9 +83,12 @@ export default function Skills() {
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-primary mb-2">Computer Science</p>
+                <p className="font-semibold text-primary mb-2">
+                  Computer Science
+                </p>
                 <p className="text-sm text-muted-foreground">
-                  Computer Architecture, Operating Systems, DSA, Digital Design, Embedded Systems, Database Management
+                  Computer Architecture, Operating Systems, DSA, Digital Design,
+                  Embedded Systems, Database Management
                 </p>
               </div>
             </div>

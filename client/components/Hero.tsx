@@ -17,7 +17,9 @@ export default function Hero() {
           </div>
 
           <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
-            B.Tech in Electrical Engineering from IIT Dharwad. Passionate about building scalable web applications and IoT solutions. Currently exploring the intersection of cloud technology and embedded systems.
+            B.Tech in Electrical Engineering from IIT Dharwad. Passionate about
+            building scalable web applications and IoT solutions. Currently
+            exploring the intersection of cloud technology and embedded systems.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -42,13 +44,19 @@ export default function Hero() {
             </div>
             <div className="flex items-center gap-1">
               <span>📧</span>
-              <a href="mailto:ayushbansal022@gmail.com" className="text-primary hover:underline">
+              <a
+                href="mailto:ayushbansal022@gmail.com"
+                className="text-primary hover:underline"
+              >
                 ayushbansal022@gmail.com
               </a>
             </div>
             <div className="flex items-center gap-1">
               <span>📱</span>
-              <a href="tel:+918770058660" className="text-primary hover:underline">
+              <a
+                href="tel:+918770058660"
+                className="text-primary hover:underline"
+              >
                 +91-8770058660
               </a>
             </div>

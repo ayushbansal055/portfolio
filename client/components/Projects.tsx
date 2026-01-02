@@ -9,7 +9,13 @@ export default function Projects() {
         "Designed and implemented a responsive frontend, enabling a seamless user experience for students and faculty to search, view, and manage library materials.",
         "Integrated a MongoDB database to efficiently store and retrieve data for thousands of books, research papers, and user profiles.",
       ],
-      technologies: ["Node.js", "Express.js", "React.js", "MongoDB", "REST APIs"],
+      technologies: [
+        "Node.js",
+        "Express.js",
+        "React.js",
+        "MongoDB",
+        "REST APIs",
+      ],
       link: "View Project →",
     },
   ];

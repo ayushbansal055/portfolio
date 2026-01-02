@@ -14,35 +14,53 @@ export default function Footer() {
                 Ayush Bansal
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Full-stack developer and IoT engineer passionate about building scalable solutions that solve real-world problems.
+                Full-stack developer and IoT engineer passionate about building
+                scalable solutions that solve real-world problems.
               </p>
             </div>
 
             <div>
-              <h4 className="font-semibold text-foreground mb-4">Quick Links</h4>
+              <h4 className="font-semibold text-foreground mb-4">
+                Quick Links
+              </h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#about" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                  <a
+                    href="#about"
+                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                  >
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#education" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                  <a
+                    href="#education"
+                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                  >
                     Education
                   </a>
                 </li>
                 <li>
-                  <a href="#experience" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                  <a
+                    href="#experience"
+                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                  >
                     Experience
                   </a>
                 </li>
                 <li>
-                  <a href="#projects" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                  <a
+                    href="#projects"
+                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                  >
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#skills" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                  <a
+                    href="#skills"
+                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                  >
                     Skills
                   </a>
                 </li>
@@ -94,7 +112,8 @@ export default function Footer() {
 
           <div className="border-t border-border pt-8">
             <p className="text-center text-muted-foreground text-sm">
-              © {currentYear} Ayush Bansal. All rights reserved. | Roll No. EE22BT015
+              © {currentYear} Ayush Bansal. All rights reserved. | Roll No.
+              EE22BT015
             </p>
           </div>
         </div>

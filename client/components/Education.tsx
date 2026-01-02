@@ -46,7 +46,9 @@ export default function Education() {
                     <h3 className="text-xl font-semibold text-foreground">
                       {edu.degree}
                     </h3>
-                    <p className="text-primary font-medium mt-1">{edu.institution}</p>
+                    <p className="text-primary font-medium mt-1">
+                      {edu.institution}
+                    </p>
                     <div className="flex flex-col sm:flex-row sm:items-center gap-2 mt-3 text-sm text-muted-foreground">
                       <span className="font-semibold text-foreground">
                         CGPA/Grade: {edu.cgpa}
