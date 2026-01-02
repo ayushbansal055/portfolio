@@ -31,7 +31,8 @@ export default function Experience() {
             {experiences.map((exp, idx) => (
               <div
                 key={idx}
-                className="p-8 border border-border rounded-xl bg-card hover:shadow-lg transition-all"
+                className="p-8 border border-border rounded-xl bg-card hover:shadow-xl hover:border-primary hover:scale-105 transition-all duration-300 animate-slide-up"
+                style={{ animationDelay: `${idx * 150}ms` }}
               >
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                   <div>
