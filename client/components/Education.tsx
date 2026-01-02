@@ -3,7 +3,7 @@ export default function Education() {
     {
       degree: "B.Tech - Electrical Engineering",
       institution: "Indian Institute of Technology, Dharwad",
-      cgpa: "7.19 (Current)",
+      cgpa: "7.31 (Current)",
       year: "2022-Present",
       icon: "🎓",
     },
