@@ -27,7 +27,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#about"
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                    className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm hover:translate-x-1 inline-block"
                   >
                     About
                   </a>
@@ -35,7 +35,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#education"
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                    className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm hover:translate-x-1 inline-block"
                   >
                     Education
                   </a>
@@ -43,7 +43,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#experience"
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                    className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm hover:translate-x-1 inline-block"
                   >
                     Experience
                   </a>
@@ -51,7 +51,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#projects"
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                    className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm hover:translate-x-1 inline-block"
                   >
                     Projects
                   </a>
@@ -59,7 +59,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#skills"
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                    className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm hover:translate-x-1 inline-block"
                   >
                     Skills
                   </a>
@@ -73,7 +73,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="mailto:ayushbansal022@gmail.com"
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center gap-2"
+                    className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm flex items-center gap-2 hover:translate-x-1"
                   >
                     <span>✉️</span> Email
                   </a>
@@ -81,7 +81,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="tel:+918770058660"
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center gap-2"
+                    className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm flex items-center gap-2 hover:translate-x-1"
                   >
                     <span>📱</span> Phone
                   </a>
@@ -91,7 +91,7 @@ export default function Footer() {
                     href="https://linkedin.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center gap-2"
+                    className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm flex items-center gap-2 hover:translate-x-1"
                   >
                     <span>💼</span> LinkedIn
                   </a>
@@ -101,7 +101,7 @@ export default function Footer() {
                     href="https://github.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center gap-2"
+                    className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm flex items-center gap-2 hover:translate-x-1"
                   >
                     <span>🔗</span> GitHub
                   </a>
