@@ -35,7 +35,8 @@ export default function Projects() {
             {projects.map((project, idx) => (
               <div
                 key={idx}
-                className="group border border-border rounded-xl overflow-hidden bg-card hover:border-primary hover:shadow-xl transition-all"
+                className="group border border-border rounded-xl overflow-hidden bg-card hover:border-primary hover:shadow-2xl hover:scale-105 transition-all duration-300 animate-slide-up"
+                style={{ animationDelay: `${idx * 150}ms` }}
               >
                 <div className="p-8">
                   <h3 className="text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
