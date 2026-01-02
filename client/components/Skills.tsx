@@ -71,7 +71,10 @@ export default function Skills() {
             ))}
           </div>
 
-          <div className="mt-12 p-8 border border-primary/30 rounded-xl bg-primary/5 animate-slide-up hover:shadow-lg transition-all duration-300" style={{ animationDelay: "500ms" }}>
+          <div
+            className="mt-12 p-8 border border-primary/30 rounded-xl bg-primary/5 animate-slide-up hover:shadow-lg transition-all duration-300"
+            style={{ animationDelay: "500ms" }}
+          >
             <h3 className="text-lg font-bold text-foreground mb-3 flex items-center gap-2">
               <span className="text-2xl">📚</span>
               Key Courses
