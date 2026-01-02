@@ -38,7 +38,8 @@ export default function Education() {
             {educationData.map((edu, idx) => (
               <div
                 key={idx}
-                className="p-6 border border-border rounded-xl hover:border-primary hover:shadow-md transition-all bg-card"
+                className="p-6 border border-border rounded-xl hover:border-primary hover:shadow-lg hover:scale-105 transition-all duration-300 bg-card animate-slide-up"
+                style={{ animationDelay: `${idx * 100}ms` }}
               >
                 <div className="flex gap-4">
                   <div className="text-3xl">{edu.icon}</div>
