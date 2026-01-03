@@ -72,7 +72,7 @@ export default function Footer() {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="mailto:ayushbansal022@gmail.com"
+                    href="mailto:220020015@iitdh.ac.in"
                     className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm flex items-center gap-2 hover:translate-x-1"
                   >
                     <span>✉️</span> Email
@@ -88,7 +88,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://linkedin.com"
+                    href="www.linkedin.com/in/ayush-bansal-ee"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm flex items-center gap-2 hover:translate-x-1"
@@ -98,7 +98,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://github.com"
+                    href="https://github.com/ayushbansal055"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm flex items-center gap-2 hover:translate-x-1"

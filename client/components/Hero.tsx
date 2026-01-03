@@ -24,7 +24,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <a
-              href="mailto:ayushbansal022@gmail.com"
+              href="mailto:220020015@iitdh.ac.in"
               className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
             >
               Get in Touch
@@ -48,7 +48,7 @@ export default function Hero() {
                 href="mailto:ayushbansal022@gmail.com"
                 className="text-primary hover:underline"
               >
-                ayushbansal022@gmail.com
+                220020015@iitdh.ac.in
               </a>
             </div>
             <div className="flex items-center gap-1">
