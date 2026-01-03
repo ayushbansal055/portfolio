@@ -88,7 +88,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="www.linkedin.com/in/ayush-bansal-ee"
+                    href="https://www.linkedin.com/in/ayush-bansal-ee/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-all duration-200 text-sm flex items-center gap-2 hover:translate-x-1"
